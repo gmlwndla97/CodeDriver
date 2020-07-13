@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/end"
+    android:orientation="vertical"
+    android:scaleType="fitXY"
+    tools:context="com.example.user.codedriver.laststop">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_marginTop="35dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/laststop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="200dp"
+            android:background="@android:color/transparent"
+            android:onClick="onBackClicked"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/back" />
+
+        <ImageButton
+            android:id="@+id/submit"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:background="@android:color/transparent"
+            android:onClick="onSubmitClicked"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/submit" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="160dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/whilequestion"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/input1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="218dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="0"
+                android:background="@android:color/transparent"
+                android:cropToPadding="false"
+                android:scaleType="fitXY"
+                android:visibility="visible"
+                app:srcCompat="@drawable/question"
+                tools:srcCompat="@drawable/question" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/right_laststop"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="0"
+                android:background="@android:color/transparent"
+                android:onClick="onClicked"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/right_laststop" />
+
+
+            <ImageButton
+                android:id="@+id/left_laststop"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="0"
+                android:background="@android:color/transparent"
+                android:onClick="onClicked"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/left_laststop" />
+
+
+            <ImageButton
+                android:id="@+id/same"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="0"
+                android:background="@android:color/transparent"
+                android:onClick="onClicked"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/same" />
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

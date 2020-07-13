@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainpage"
+    tools:context="com.example.user.codedriver.MainActivity">
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/startbtn"
+        android:onClick="btnClick"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/htpbtn"
+        android:onClick="btnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</LinearLayout>

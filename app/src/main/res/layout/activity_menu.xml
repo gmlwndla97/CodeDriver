@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/backLinear"
+    tools:context="com.example.user.codedriver.menu">
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:onClick="menuClick"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="menuClick"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/btn3"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:onClick="menuClick"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"/>
+
+</LinearLayout>
