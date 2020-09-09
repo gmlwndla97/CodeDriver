@@ -14,6 +14,6 @@
 <div class="parent" style="width: 600px; height: 250px;">
     <div class="child"img width="250" height="250" src="https://user-images.githubusercontent.com/37864097/92612262-ac9af580-f2f4-11ea-8e46-9cf094215a5a.png">
 </div>
-<img width="250" height="380" src="https://user-images.githubusercontent.com/37864097/92617935-cb03ef80-f2fa-11ea-9306-e476e2eb42bc.png">
-<img width="250" height="380" src="https://user-images.githubusercontent.com/37864097/92617937-cb9c8600-f2fa-11ea-892b-180e66b7fb73.png">
-<img width="250" height="380" src="https://user-images.githubusercontent.com/37864097/92617939-cc351c80-f2fa-11ea-82c1-2bca6f848e39.png">
+<img width="180" height="270" src="https://user-images.githubusercontent.com/37864097/92617935-cb03ef80-f2fa-11ea-9306-e476e2eb42bc.png">
+<img width="180" height="270" src="https://user-images.githubusercontent.com/37864097/92617937-cb9c8600-f2fa-11ea-892b-180e66b7fb73.png">
+<img width="180" height="270" src="https://user-images.githubusercontent.com/37864097/92617939-cc351c80-f2fa-11ea-82c1-2bca6f848e39.png">
