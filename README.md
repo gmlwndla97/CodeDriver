@@ -31,6 +31,6 @@
 <img width="180" height="270" src="https://user-images.githubusercontent.com/37864097/92618310-2c2bc300-f2fb-11ea-8edd-924218263a8f.png">
 <br/>신호등 문제, 주유소 문제, 종착역 문제이다. 먼저 신호등 문제는 신호의 경우에 따라 case문을 채우는 문제이다. 그리고 주유소 문제는 현재 기름의 양이 주어지면, 기름이 꽉 찰 때까지 반복하여 채우는 것이다. while문을 이용한 종착역 문제는 while아래 문장이 반복되어 수행되기 위한 조건을 만드는 것이다. <br/><br/>
     <img width="180" height="270" src="https://user-images.githubusercontent.com/37864097/92618311-2c2bc300-f2fb-11ea-87de-722d32bac508.png">
-  <img width="180" height="270" src=" https://user-images.githubusercontent.com/37864097/92619378-621d7700-f2fc-11ea-9765-a8d482f06a13.png">
+  <img width="180" height="270" src="https://user-images.githubusercontent.com/37864097/92619378-621d7700-f2fc-11ea-9765-a8d482f06a13.png">
     <br/>문제를 틀렸을 경우 나타나는 화면과, 종착역까지의 모든 문제를 다 풀었을 경우 나타나는 화면이다. <br/>
     
